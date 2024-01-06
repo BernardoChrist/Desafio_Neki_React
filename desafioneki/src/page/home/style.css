@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a5f1e1;
+  color: #000;
+  height: 20%;
+  margin-bottom: 10px;
+  border-bottom: 5px #424646 solid;
+}
+
+.body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo {
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-top: 37px;
+}
+
+.bemvindo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 5%;
+  margin-top: 37px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  margin-top: -10px;
+}
+
+.botaosair {
+  position: absolute;
+  right: 0;
+  margin-right: 150px;
+  margin-top: -15px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulo-nova-skill {
+  color: #000;
+  font-size: 30px;
+}
+
+.titulo-div {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.body-new-skill {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.new-skill-container {
+  background-color: #a5f1e1;
+  width: 500px;
+  margin: 150px auto; /* Define a margem superior e inferior para auto e o restante para o centro horizontal */
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: #000 2px solid;
+  padding: 20px;
+  text-align: left; /* Ajusta o alinhamento do texto para a esquerda */
+}
+
+.new-skill-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-skill-form > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 1px;
+}
+
+.new-skill-form > button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.new-skill-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.campos {
+  margin: 10px;
+}
+
+label {
+  color: #000;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: #000;
+}
+
+.body-new-skill input {
+  height: 55%;
+}
+
+button:hover {
+  background-color: #005757;
+}

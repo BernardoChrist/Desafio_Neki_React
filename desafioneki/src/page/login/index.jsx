@@ -41,6 +41,11 @@ export default function Login() {
   };
 
   const cadastrar = async () => {
+    if (!login || !senha || !confirmarSenha) {
+      alert("Por favor, preencha todos os campos");
+      return;
+    }
+
     if (senha !== confirmarSenha) {
       alert("As senhas não coincidem");
       return;
